@@ -45,24 +45,4 @@ var baz = List<int>.empty();
 ### 打包测试包
 在命令行 运行 flutter build apk --no-sound-null-safety
 
-### keytool -genkey -v -keystore shadow.keystore -alias secondHand -keyalg RSA -keysize 2048 -validity 10000 -storepass shadowsecondHand -keypass shadowsecondHand
-您的名字与姓氏是什么?
-[Unknown]:  XIEJIAYING
-您的组织单位名称是什么?
-[Unknown]:  SCUT
-您的组织名称是什么?
-[Unknown]:  SCUT
-您所在的城市或区域名称是什么?
-[Unknown]:  GUANGZHOU
-您所在的省/市/自治区名称是什么?
-[Unknown]:  PANYU
-该单位的双字母国家/地区代码是什么?
-[Unknown]:  ch
-CN=XIEJIAYING, OU=SCUT, O=SCUT, L=GUANGZHOU, ST=PANYU, C=ch是否正确?
-[否]:  y
-
-正在为以下对象生成 2,048 位RSA密钥对和自签名证书 (SHA256withRSA) (有效期为 10,000 天):
-CN=XIEJIAYING, OU=SCUT, O=SCUT, L=GUANGZHOU, ST=PANYU, C=ch
-[正在存储shadow.keystore]
-
 
